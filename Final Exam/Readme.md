@@ -1,10 +1,10 @@
-### FINAL EXAM
+# FINAL EXAM
 
 In this final challenge, you will put into practice some of the key principles and techniques you have learned in the course.
 
 The challenge does not include specific step-by-step instructions, so you must interpret the requirements and perform the necessary tasks to build, test, and optimize your model. After you have created your model, you are required to enter the predicted labels for a test dataset that is provided in the lab files for this course so that your model's performance can be graded. The challenge accounts for 50% of your overall grade.
 
-# Challenge Overview
+## Challenge Overview
 In 1998, the Adventure Works Cycles company collected a large volume of data about their existing customers, including demographic features and information about purchases they have made. The company is particularly interested in analyzing customer data to determine any apparent relationships between demographic features known about the customers and the likelihood of a customer purchasing a bike. Additionally, the analysis should endeavor to determine whether a customer's average monthly spend with the company can be predicted from known customer characteristics.
 
 In this project, you must tackle three challenges:
@@ -23,7 +23,7 @@ This data consists of three files, containing data that was collected on January
 
 Dataset is included in the repo.
 
-## AdvWorksCusts.csv
+### AdvWorksCusts.csv
 Customer demographic data consisting of the following fields:
 
 - CustomerID (integer): A unique customer identifier.
@@ -60,20 +60,20 @@ Customer demographic data consisting of the following fields:
 - TotalChildren (integer): The total number of children the customer has.
 - YearlyIncome (decimal): The annual income of the customer.
 
-## AW_AveMonthSpend.csv
+### AW_AveMonthSpend.csv
 Sales data for existing customers, consisting of the following fields:
 
 - CustomerID (integer): The unique identifier for the customer.
 - AveMonthSpend (decimal): The amount of money the customer spends with Adventure Works Cycles on average each month.
 
-## AW_BikeBuyer.csv
+### AW_BikeBuyer.csv
 Sales data for existing customers, consisting of the following fields:
 
 - CustomerID (integer): The unique identifier for the customer.
 - BikeBuyer (integer): A Boolean flag indicating whether a customer has previously purchased a bike (1) or not (0).
 
 
-### Challenge : Classification
+# Challenge : Classification
  Marcar esta página
 You have explored and analyzed customer data collected by the Adventure Works Cycles company. Now you should be ready to apply what you have learned about the data to building, testing, and optimizing a predictive machine learning model.
 
@@ -87,7 +87,7 @@ Download the test data. This data includes customer features but does not includ
 Use your model to predict the corresponding test dataset. Don't forget to apply what you've learned throughout this course.
 Go to the next page to check how well your prediction against the actual result.
 
-### Challenge : Regression
+# Challenge : Regression
  Marcar esta página
 Now, you must use any combination of Azure Machine Learning, R or Python to create a regression model that predicts the average monthly spend of a new customers.
 
